@@ -1,0 +1,369 @@
+img{
+    display: block !important; 
+    width: 100% !important;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: "hachura", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+div{
+    width: 95%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.bluespan{
+    color: Blue;
+}
+
+.container{
+    position: fixed;
+    left: -1%;
+    bottom: -5%;
+    display: none;
+    z-index: 10;
+}
+
+.b1:hover ~ .container {
+    display: block;
+}
+
+.container2{
+    position: fixed;
+    left: -1%;
+    bottom: -5%;
+    display: none;
+    z-index: 10;
+}
+
+.b2:hover ~ .container2 {
+    display: block;
+}
+
+.container3{
+    position: fixed;
+    left: -1%;
+    bottom: -5%;
+    display: none;
+    z-index: 10;
+}
+
+.b3:hover ~ .container3 {
+    display: block;
+}
+
+.yellowspan{
+    color: yellow;
+}
+
+.y1:hover ~ .container {
+    display: block;
+}
+
+.y2:hover ~ .container2 {
+    display: block;
+}
+
+.y3:hover ~ .container3 {
+    display: block;
+}
+
+.orangespan{
+    color: orange;
+}
+
+.o1:hover ~ .container {
+    display: block;
+}
+
+.o2:hover ~ .container2 {
+    display: block;
+}
+
+.o3:hover ~ .container3 {
+    display: block;
+}
+
+.hoy{
+    background-color: yellow;
+    width: 99%;
+    height: 2%;
+    position: absolute;
+    top: 330%;
+    left: -1%;
+}
+
+.hoy2{
+    background-color: yellow;
+    width: 99%;
+    height: 2%;
+    position: absolute;
+    top: 661%;
+    left: -1%;
+}
+
+.redspan{
+    color: red;
+}
+
+.redcontainer{
+    color: white;
+    position: fixed;
+    left: -1%;
+    bottom: -5%;
+    display: none;
+}
+
+.r1:hover ~ .redcontainer {
+    display: block;
+}
+
+.redcontainer2{
+    color: white;
+    position: fixed;
+    left: -1%;
+    bottom: -5%;
+    display: none;
+}
+
+.r2:hover ~ .redcontainer2 {
+    display: block;
+}
+
+.redcontainer3{
+    color: white;
+    position: fixed;
+    left: -1%;
+    bottom: -5%;
+    display: none;
+}
+
+.r3:hover ~ .redcontainer3 {
+    display: block;
+}
+
+.blackspan{
+    color: black;
+}
+
+.blackcontainer{
+    color: white;
+    position: fixed;
+    left: -1%;
+    bottom: -5%;
+    display: none;
+}
+
+.bl1:hover ~ .blackcontainer {
+    display: block;
+}
+
+.blackcontainer2{
+    color: white;
+    position: fixed;
+    left: -1%;
+    bottom: -5%;
+    display: none;
+}
+
+.bl2:hover ~ .blackcontainer2 {
+    display: block;
+}
+
+.blackcontainer3{
+    color: white;
+    position: fixed;
+    left: -1%;
+    bottom: -5%;
+    display: none;
+}
+
+.bl3:hover ~ .blackcontainer3 {
+    display: block;
+}
+
+.greyspan{
+    color: grey;
+}
+
+.g1:hover ~ .container {
+    display: block;
+}
+
+.g2:hover ~ .container2 {
+    display: block;
+}
+
+.g3:hover ~ .container3 {
+    display: block;
+}
+
+.hog{
+    background-color: grey;
+    width: 99%;
+    height: 2%;
+    position: fixed;
+    top: 94%;
+    left: -1%;
+}
+
+.hob{
+    background-color: blue;
+    width: 99%;
+    height: 2%;
+    position: fixed;
+    top: 94%;
+    left: -1%;
+}
+
+
+.pinkspan{
+    color: pink;
+}
+
+.p1:hover ~ .container {
+    display: block;
+}
+
+.p2:hover ~ .container2 {
+    display: block;
+}
+
+.p3:hover ~ .container3 {
+    display: block;
+}
+
+.hop{
+    background-color: pink;
+    width: 99%;
+    height: 2%;
+    position: absolute;
+    top: 330%;
+    left: -1%;
+}
+
+.hop2{
+    background-color: pink;
+    width: 99%;
+    height: 2%;
+    position: absolute;
+    top: 659%;
+    left: -1%;
+}
+
+.hoo{
+    background-color: orange;
+    width: 99%;
+    height: 2%;
+    position: fixed;
+    top: 94%;
+    left: -1%;
+}
+
+.container p {
+    mix-blend-mode: multiply;
+}
+
+.reddiv{
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 1%;
+    left: 1%;
+}
+
+.orangediv{
+    background-color: orange;
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 1%;
+    left: 1%;
+}
+
+.yellowdiv{
+    background-color: yellow;
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 1%;
+    left: 1%;
+}
+
+.greydiv{
+    background-color: grey;
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 1%;
+    left: 1%;
+}
+
+.pinkdiv{
+    background-color: pink;
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 1%;
+    left: 0%;
+}
+
+.bluediv{
+    background-color: blue;
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 1%;
+    left: 0%;
+}
+
+.blackdiv{
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 1%;
+    left: 0%;
+}
+
+.purplespan{
+    color: purple;
+}
+
+.hopu{
+    background-color: purple;
+    width: 99%;
+    height: 2%;
+    position: fixed;
+    top: 94%;
+    left: -1%;
+}
+
+.pu1:hover ~ .container {
+    display: block;
+}
+
+.pu2:hover ~ .container2 {
+    display: block;
+}
+
+.pu3:hover ~ .container3 {
+    display: block;
+}
+
+.purplediv{
+    background-color: purple;
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 1%;
+    left: 0%;
+}

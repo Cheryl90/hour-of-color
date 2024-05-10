@@ -1,0 +1,167 @@
+.item{
+    flex: 0 0 50%;
+    box-sizing: border-box;
+}
+
+.clock{
+    width: 36%;
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.num4{
+    font-family: "shrub", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 35px;
+    position: absolute;
+    top: 39%;
+}
+
+.num1{
+    font-family: "shrub", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 35px;
+    position: absolute;
+    top: 0%;
+}
+
+.num2{
+    font-family: "shrub", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 35px;
+    position: absolute;
+    top: 13%;
+}
+
+.num3{
+    font-family: "shrub", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 35px;
+    position: absolute;
+    top: 26%;
+}
+
+.num5{
+    font-family: "shrub", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 35px;
+    position: absolute;
+    top: 52%;
+}
+
+.num6{
+    font-family: "shrub", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 35px;
+    position: absolute;
+    top: 65%;
+}
+
+.num7{
+    font-family: "shrub", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 35px;
+    position: absolute;
+    left: 6%;
+    top: 7%;
+}
+
+.num8{
+    font-family: "shrub", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 35px;
+    position: absolute;
+    left: 6%;
+    top: 20%;
+}
+
+.num9{
+    font-family: "shrub", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 35px;
+    position: absolute;
+    left: 6%;
+    top: 33%;
+}
+
+.num10{
+    font-family: "shrub", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 35px;
+    position: absolute;
+    left: 6%;
+    top: 46%;
+}
+
+.num11{
+    font-family: "shrub", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 35px;
+    position: absolute;
+    left: 6%;
+    top: 59%;
+}
+
+.num12{
+    font-family: "shrub", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 35px;
+    position: absolute;
+    left: 6%;
+    top: 72%;
+}
+
+.blue{
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 90%;
+}
+
+.cot{
+    font-family: "shrub", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 85px;
+    position: absolute;
+    right: 4%;
+    top: -14%;
+    transform: rotate(-90deg);
+    transform-origin: right;
+}
+
+.background{
+    width: 100%;
+    z-index: -100;
+}
+
+.container{
+    position: absolute;
+    overflow-y: scroll;
+    top: 1%;
+    left: 38%;
+}
+.pm{
+    font-family: "shrub", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+    position: absolute;
+    top: -4%;
+}
